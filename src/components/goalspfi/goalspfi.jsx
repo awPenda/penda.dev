@@ -1,7 +1,10 @@
 const Goals = () => {
     return(
         <div id="Goals">
-            Cible
+            <div id="explain">explain why</div>
+            <div id="cible">
+                <img src="./src/img/CiblePFI.png" alt="CiblePFI" />
+            </div>
         </div>
     )
 }

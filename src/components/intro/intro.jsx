@@ -2,7 +2,7 @@ const Intro = () => {
     return(
         <div id="Intro">
             <h1>About Me</h1>
-            <div id="pic"></div>
+            <div id="pic"><img src="" alt="PhotoAboutMe" /></div>
             <div id="PersonalProfile">
                 Currently in 3rd year in computer science at CESI Engineering school, my perseverance and my involvement in my work in addition to my adaptation capacity allowed me to success and flourish in my formation.
                 I am versatile by nature: open to change and ready to learn and give the best of myself.
@@ -18,7 +18,8 @@ const Intro = () => {
                     <li>Curious</li>
                 </ul>
             </div>
-            <button>View resume/download CV</button>
+            <div>interests</div>
+            {/*<button class="hidden" style="display: hidden;">View resume/download CV</button>-->*/}
         </div>
     )
 }

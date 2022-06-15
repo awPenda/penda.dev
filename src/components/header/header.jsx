@@ -8,6 +8,7 @@ const Header = () => {
                 <li>Resume</li> {/*<!-- Resume = pro experiences, skills, etc. -->*/}
                 <li>Personal Experiences</li> {/*<!-- Personal achievements -->*/}
                 <li>Contact</li> {/*<!--Contact-->*/}
+                <li>EN/FR</li>
             </ul>
         </div>
     )

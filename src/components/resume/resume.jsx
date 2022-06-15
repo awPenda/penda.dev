@@ -1,14 +1,19 @@
+import ProExp from "../proexp/proexp";
+import Education from "../education/education";
+import Skills from "../skills/skills";
+
+
 const Resume = () => {
     return(
         <div id="Resume">
             <div id="Education">
-                Education
+                <Education/>
             </div>
             <div id="ProExp">
-                ProExp
+                <ProExp/>
             </div>
             <div id="Skills">
-                Skills
+                <Skills/>
             </div>
         </div>
     )
