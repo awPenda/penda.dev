@@ -20,6 +20,7 @@ const Intro = () => {
             </div>
             <div>interests</div>
             {/*<button class="hidden" style="display: hidden;">View resume/download CV</button>-->*/}
+            {/* call skills, education, goals and interests components */}
         </div>
     )
 }

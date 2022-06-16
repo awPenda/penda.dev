@@ -1,8 +1,14 @@
+import CoverPic from '../../img/coverpic.jpeg'; 
+
+
 const Cover = () => {
     return(
         <div id="Cover">
-            <h1 id="Name">Amélie</h1>
-            <div id="Qualifiers">
+            <div>
+                <img src={CoverPic} alt="CoverPic" />
+            </div>
+            <div>
+                <h1> I'm <b>Amelie</b></h1>
                 <ul>
                     <li>Computer engineering student</li>
                     <li>Multipotentialite</li>
@@ -10,16 +16,12 @@ const Cover = () => {
                     <li>Human contact lover</li>
                     <li>View my resume</li>
                 </ul>
-            </div>
-            <div>
                 <ul>
-                    <li>Linkedin</li>
-                    <li>GitHub</li>
-                    <li><a href="mailto:amelie.willems2@gmail.com">Mail</a>
-                    </li>
+                    <li><a href="https://github.com/awPenda">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/ameliewillems">Linkedin</a></li>
+                    <li><a href="mailto:amelie.willems2@gmail.com">Mail</a></li>
                 </ul>
             </div>
-            <div id="pic"></div>
         </div>
     )
 }

@@ -4,9 +4,9 @@ import './App.css';
 import Header from "./components/header/header";
 import Cover from "./components/cover/cover";
 import Intro from "./components/intro/intro";
-import Goals from "./components/goalspfi/goalspfi";
-import Resume from "./components/resume/resume";
+import Pro from "./components/proexp/proexp";
 import Perso from "./components/persoexp/persoexp";
+import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 
@@ -34,9 +34,9 @@ function App() {
    <Header/>
    <Cover/>
    <Intro/>
-   <Goals/>
-   <Resume/>
+   <Pro/>
    <Perso/>
+   {/*<Projects/>*/}
    <Contact/>
    <Footer/>
  </div>
