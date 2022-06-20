@@ -1,7 +1,7 @@
 const Project = (props) => {
     return(
         <div id="Project">
-            <h2>{props.title}</h2>
+            <h3>{props.title}</h3>
             <div>{props.text}</div>
             <a href={props.link}>See on GitHub</a>
         </div>

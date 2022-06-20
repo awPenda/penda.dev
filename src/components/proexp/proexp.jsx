@@ -11,18 +11,18 @@ let descLewys = "Created the back and front end of a website from scratch, for a
 
 const ProExp = () => {
     return(
-        <div id="ProExp">
+        <div id="ProExp" class="h-screen">
             {/*call a experience component that should look like that :*/}
             <div>
                {/*call for each exp 
-               with logoCompSrc, title, details, logoTech1, logoTech2, description
+               with logoCompSrc, title, details, logoTech2, logoTech3, description
                */}
-               <h1>Experiences</h1>
-               <Exp logoCompSrc={logoFlamme} title={"FLAMME ASSAINISSEMENT - INTERN WEB DEVELOPER"} details={"Saint-Rémy du Nord, France | January 2022 – April 2022"} logoTech1={LogoLaravel} logoTech2={LogoTD} description={descFlamme}/>
-               <Exp logoCompSrc={logoLewys} title={"LEWYS - INTERN WEB DEVELOPER"} details={"Remote – Bordeaux, France | April 2021 – July 2021"} logoTech1={LogoRails} logoTech2={LogoTailwind} description={descLewys}/>
+               <h2>Experiences</h2>
+               <Exp logoCompSrc={logoFlamme} title={"FLAMME ASSAINISSEMENT - INTERN WEB DEVELOPER"} details={"Saint-Rémy du Nord, France | January 2022 – April 2022"} logoTech2={LogoLaravel} logoTech3={LogoTD} description={descFlamme}/>
+               <Exp logoCompSrc={logoLewys} title={"LEWYS - INTERN WEB DEVELOPER"} details={"Remote – Bordeaux, France | April 2021 – July 2021"} logoTech2={LogoRails} logoTech3={LogoTailwind} description={descLewys}/>
 
                {/*
-               <Exp logoCompSrc={""} title={""} details={""} logoTech1={""} logoTech2={""} description={""}/>
+               <Exp logoCompSrc={""} title={""} details={""} logoTech2={""} logoTech3={""} description={""}/>
                 */}
             </div>
         </div>

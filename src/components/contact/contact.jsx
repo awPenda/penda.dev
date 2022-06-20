@@ -1,7 +1,7 @@
 const Contact = () => {
     return(
-        <div id="Contact">
-            <h1>Contact</h1>
+        <div id="Contact"  class="h-screen">
+            <h2>Contact</h2>
             <div class="hidden">
                 <input type="text" name="" id="" />
                 <input type="text" name="" id="" />
