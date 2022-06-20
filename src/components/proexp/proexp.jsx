@@ -11,19 +11,13 @@ let descLewys = "Created the back and front end of a website from scratch, for a
 
 const ProExp = () => {
     return(
-        <div id="ProExp" class="h-screen">
-            {/*call a experience component that should look like that :*/}
+        <div id="ProExp" class="max-h-screen">
             <div>
-               {/*call for each exp 
-               with logoCompSrc, title, details, logoTech2, logoTech3, description
-               */}
-               <h2>Experiences</h2>
-               <Exp logoCompSrc={logoFlamme} title={"FLAMME ASSAINISSEMENT - INTERN WEB DEVELOPER"} details={"Saint-Rémy du Nord, France | January 2022 – April 2022"} logoTech2={LogoLaravel} logoTech3={LogoTD} description={descFlamme}/>
-               <Exp logoCompSrc={logoLewys} title={"LEWYS - INTERN WEB DEVELOPER"} details={"Remote – Bordeaux, France | April 2021 – July 2021"} logoTech2={LogoRails} logoTech3={LogoTailwind} description={descLewys}/>
-
-               {/*
-               <Exp logoCompSrc={""} title={""} details={""} logoTech2={""} logoTech3={""} description={""}/>
-                */}
+               <h2 class="text-3xl mt-6">Experiences</h2>
+               <div class="2xl:mx-36">
+                <Exp logoCompSrc={logoFlamme} title={"FLAMME ASSAINISSEMENT - INTERN WEB DEVELOPER"} details={"Saint-Rémy du Nord, France | January 2022 – April 2022"} logoTech2={LogoLaravel} logoTech3={LogoTD} description={descFlamme}/>
+                <Exp logoCompSrc={logoLewys} title={"LEWYS - INTERN WEB DEVELOPER"} details={"Remote – Bordeaux, France | April 2021 – July 2021"} logoTech2={LogoRails} logoTech3={LogoTailwind} description={descLewys}/>
+               </div>
             </div>
         </div>
     )

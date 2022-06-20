@@ -6,11 +6,11 @@ import Skill from './skill';
 
 const Intro = () => {
     return(
-        <div id="Intro" class="h-screen">
-            <h2>About me</h2>
+        <div id="Intro" class="">
+            <h2 class="text-3xl mt-6">About me</h2>
             <div>
                 <div>
-                    <ul class="flex flex-row justify-evenly">
+                    <ul class="flex flex-row justify-evenly text-xl">
                         <li>About</li>
                         <li>Skills</li>
                         <li>Education</li>
@@ -19,15 +19,15 @@ const Intro = () => {
                     </ul>
                 </div>
                 <div class="p-8">
-                    <div id="about" class="flex flex-row items-center">
-                        <img src={IntroPic} alt="intropic" class="w-80"/>
+                    <div id="about" class="flex flex-row items-center rounded-lg shadow-md m-8 p-2">
+                        <img src={IntroPic} alt="intropic" class="w-72 m-4"/>
                         <p id="PersonalProfile" class=" text-justify indent-8 m-4">
                             Currently in 3rd year in computer science at CESI Engineering school, my perseverance and my involvement in my work in addition to my adaptation capacity allowed me to success and flourish in my formation.
                             I am versatile by nature: open to change and ready to learn and give the best of myself.
                             I am also comfortable communicating with others, and I do not hesitate to ask for the help of my colleagues when needed.
                         </p>
                     </div>
-                    <div id="skills" class="grid grid-cols-3 gap-4 hidden">
+                    <div id="skills" class="grid grid-cols-3 gap-4 rounded-lg shadow-md m-8 p-2">
                         {/* call skill * nb skill */}
                         <Skill name={"Soft Skills"} details={"Adaptability, Teamwork, Leadership, Versatile, Sociable, Curious"}/>
                         <Skill name={"Programming Languages"} details={"C, C++, C#, Python"}/>
@@ -41,11 +41,11 @@ const Intro = () => {
                         <Skill name={"Networking & System Administration basis"} details={"CCNA7"}/>
                         <Skill name={"Languages"} details={"French Native, English B2 advanced"}/>
                     </div>
-                    <div id="education" class="flex flex-col hidden">
-                        <div class="flex flex-row items-center justify-evenly">
+                    <div id="education" class="flex flex-col rounded-lg shadow-md m-8 p-2">
+                        <div class="flex flex-row items-center justify-evenly m-4">
                             <img src={CesiLogo} alt="CesiLogo" />
                             <div class="text-center">
-                                <h3>CESI engineering school</h3>
+                                <h3 class="font-semibold text-lg">CESI engineering school</h3>
                                 <div>MASTER DEGREE IN COMPUTER ENGINEERING</div>
                                 <div>Lille, France</div>
                                 <div>2019 - 2024</div>
@@ -60,11 +60,11 @@ const Intro = () => {
                             </button>
                         </div>
                     </div>
-                    <div id="goals" class="hidden">
+                    <div id="goals" class="flex flex-row justify-center rounded-lg shadow-md m-8 p-2">
                         <div class="hidden">
                             explain
                         </div>
-                        <img src={CiblePFI} alt="CiblePFI" />
+                        <img src={CiblePFI} alt="CiblePFI" class="w-3/4 2xl:w-1/2"/>
                     </div>
                     <div id="interests" class="hidden">
 

@@ -30,16 +30,16 @@ function App() {
     </div>
   );
   */
- return <div>
-   <Header/>
-   <Cover/>
-   <Intro/>
-   <Pro/>
-   <Perso/>
-   <Projects/>
-   <Contact/>
-   <Footer/>
- </div>
+ return <div class="mx-56">
+    <Header/>
+    <Cover/>
+    <Intro/>
+    <Pro/>
+    <Perso/>
+    <Projects/>
+    {/*<Contact/>*/}
+    <Footer/>
+  </div>
   /* should givea clear idea of who i am and what i can do
   plan : 
     Header = table of contents or Navigation menu
