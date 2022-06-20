@@ -1,18 +1,16 @@
-const Exp = () => {
+const Exp = (props) => {
     return(
         <div id="Exp">
-            <div><img src="" alt="LogoEntreprise" /></div>
+            <div><img src={props.logoCompSrc} alt="LogoCompany" /></div>
             <div>
-                    <div name='shortDecscription'>
-                        FLAMME ASSAINISSEMENT - INTERN WEB DEVELOPER
-                        Saint-Rémy du Nord, France | January 2022 – April 2022
-                    </div>
-                    <div name='logos'>
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                    </div>
-                    <div name='moredetailsdiv'></div>
-                    <button>more details</button>
+                <h2>{props.title}</h2>
+                <div>{props.details}</div>
+                <div>
+                    <img src={props.logoTech1} alt="LogoTechnologyOne" />
+                    <img src={props.logoTech2} alt="LogoTechnologyTwo" />
+                </div>
+                <div name='moredetailsdiv'>{props.description}</div>
+                <button>more details</button>
             </div>
         </div>
     )

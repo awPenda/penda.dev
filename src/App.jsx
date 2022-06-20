@@ -36,7 +36,7 @@ function App() {
    <Intro/>
    <Pro/>
    <Perso/>
-   {/*<Projects/>*/}
+   <Projects/>
    <Contact/>
    <Footer/>
  </div>
