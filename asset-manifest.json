@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.42212bee.css",
+    "main.js": "/react-gh-pages/static/js/main.9eb8c90a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cresipic.jpeg": "/react-gh-pages/static/media/cresipic.eb60ced2e980958b3edd.jpeg",
+    "static/media/intropic.jpeg": "/react-gh-pages/static/media/intropic.cbcf71d50c6b93405eb9.jpeg",
+    "static/media/ambassadeurpic.jpeg": "/react-gh-pages/static/media/ambassadeurpic.f65a23d2cce015a9cb59.jpeg",
+    "static/media/CiblePFI.png": "/react-gh-pages/static/media/CiblePFI.920749cd28119657c3b0.png",
+    "static/media/coverpic.jpeg": "/react-gh-pages/static/media/coverpic.9c35aabf2ef74e7c7c99.jpeg",
+    "static/media/LogoFlamme.png": "/react-gh-pages/static/media/LogoFlamme.609f4fbc253ecfcd5742.png",
+    "static/media/LogoTD.png": "/react-gh-pages/static/media/LogoTD.9edaa9d605891b75663b.png",
+    "static/media/LogoTailwind.png": "/react-gh-pages/static/media/LogoTailwind.8ef4ebf43dce25ac103f.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.42212bee.css.map": "/react-gh-pages/static/css/main.42212bee.css.map",
+    "main.9eb8c90a.js.map": "/react-gh-pages/static/js/main.9eb8c90a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42212bee.css",
+    "static/js/main.9eb8c90a.js"
+  ]
+}
