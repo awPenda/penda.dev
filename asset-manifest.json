@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.42212bee.css",
-    "main.js": "/static/js/main.573a5134.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/cresipic.jpeg": "/static/media/cresipic.eb60ced2e980958b3edd.jpeg",
-    "static/media/intropic.jpeg": "/static/media/intropic.cbcf71d50c6b93405eb9.jpeg",
-    "static/media/ambassadeurpic.jpeg": "/static/media/ambassadeurpic.f65a23d2cce015a9cb59.jpeg",
-    "static/media/CiblePFI.png": "/static/media/CiblePFI.920749cd28119657c3b0.png",
-    "static/media/coverpic.jpeg": "/static/media/coverpic.9c35aabf2ef74e7c7c99.jpeg",
-    "static/media/LogoFlamme.png": "/static/media/LogoFlamme.609f4fbc253ecfcd5742.png",
-    "static/media/LogoTD.png": "/static/media/LogoTD.9edaa9d605891b75663b.png",
-    "static/media/LogoTailwind.png": "/static/media/LogoTailwind.8ef4ebf43dce25ac103f.png",
-    "index.html": "/index.html",
-    "main.42212bee.css.map": "/static/css/main.42212bee.css.map",
-    "main.573a5134.js.map": "/static/js/main.573a5134.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/penda.dev/static/css/main.42212bee.css",
+    "main.js": "/penda.dev/static/js/main.3a87f8b8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/penda.dev/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cresipic.jpeg": "/penda.dev/static/media/cresipic.eb60ced2e980958b3edd.jpeg",
+    "static/media/intropic.jpeg": "/penda.dev/static/media/intropic.cbcf71d50c6b93405eb9.jpeg",
+    "static/media/ambassadeurpic.jpeg": "/penda.dev/static/media/ambassadeurpic.f65a23d2cce015a9cb59.jpeg",
+    "static/media/CiblePFI.png": "/penda.dev/static/media/CiblePFI.920749cd28119657c3b0.png",
+    "static/media/coverpic.jpeg": "/penda.dev/static/media/coverpic.9c35aabf2ef74e7c7c99.jpeg",
+    "static/media/LogoFlamme.png": "/penda.dev/static/media/LogoFlamme.609f4fbc253ecfcd5742.png",
+    "static/media/LogoTD.png": "/penda.dev/static/media/LogoTD.9edaa9d605891b75663b.png",
+    "static/media/LogoTailwind.png": "/penda.dev/static/media/LogoTailwind.8ef4ebf43dce25ac103f.png",
+    "index.html": "/penda.dev/index.html",
+    "main.42212bee.css.map": "/penda.dev/static/css/main.42212bee.css.map",
+    "main.3a87f8b8.js.map": "/penda.dev/static/js/main.3a87f8b8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/penda.dev/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42212bee.css",
-    "static/js/main.573a5134.js"
+    "static/js/main.3a87f8b8.js"
   ]
 }
