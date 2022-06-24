@@ -11,12 +11,12 @@ const Footer = () => {
             </ul>
             */}
             <ul class="flex flew-row justify-around">
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Experiences</li>
-                <li>Personal Experiences</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#idCover">Home</a></li>
+                <li><a href="#idIntro">About Me</a></li>
+                <li><a href="#idProExp">Experiences</a></li>
+                <li><a href="#idPersoExp">Personal Experiences</a></li>
+                <li><a href="#idProjects">Projects</a></li>
+                {/*<li><a href="#idContact">Contact</a></li>*/}
                 <li>EN/FR</li>
                 <li>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -47,7 +47,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <a href="mailto:amelie.willems2@gmail.com">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 20 20" fill="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                             </svg>

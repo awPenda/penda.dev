@@ -6,20 +6,20 @@ import Skill from './skill';
 
 const Intro = () => {
     return(
-        <div id="Intro" class="">
+        <div id="idIntro" class="">
             <h2 class="text-3xl mt-6">About me</h2>
             <div>
                 <div>
                     <ul class="flex flex-row justify-evenly text-xl">
-                        <li>About</li>
-                        <li>Skills</li>
-                        <li>Education</li>
-                        <li>Goals</li>
-                        <li class="hidden">Interests</li>
+                        <li><a href="#idAbout">About</a></li>
+                        <li><a href="#idSkills">Skills</a></li>
+                        <li><a href="#idEducation">Education</a></li>
+                        <li><a href="#idGoals">Goals</a></li>
+                        <li><a href="#idInterests" class="hidden">Interests</a></li>
                     </ul>
                 </div>
                 <div class="p-8">
-                    <div id="about" class="flex flex-row items-center rounded-lg shadow-md m-8 p-2">
+                    <div id="idAbout" class="flex flex-row items-center rounded-lg shadow-md m-8 p-2">
                         <img src={IntroPic} alt="intropic" class="w-72 m-4"/>
                         <p id="PersonalProfile" class=" text-justify indent-8 m-4">
                             Currently in 3rd year in computer science at CESI Engineering school, my perseverance and my involvement in my work in addition to my adaptation capacity allowed me to success and flourish in my formation.
@@ -27,7 +27,7 @@ const Intro = () => {
                             I am also comfortable communicating with others, and I do not hesitate to ask for the help of my colleagues when needed.
                         </p>
                     </div>
-                    <div id="skills" class="grid grid-cols-3 gap-4 rounded-lg shadow-md m-8 p-2">
+                    <div id="idSkills" class="grid grid-cols-3 gap-4 rounded-lg shadow-md m-8 p-2">
                         {/* call skill * nb skill */}
                         <Skill name={"Soft Skills"} details={"Adaptability, Teamwork, Leadership, Versatile, Sociable, Curious"}/>
                         <Skill name={"Programming Languages"} details={"C, C++, C#, Python"}/>
@@ -41,7 +41,7 @@ const Intro = () => {
                         <Skill name={"Networking & System Administration basis"} details={"CCNA7"}/>
                         <Skill name={"Languages"} details={"French Native, English B2 advanced"}/>
                     </div>
-                    <div id="education" class="flex flex-col rounded-lg shadow-md m-8 p-2">
+                    <div id="idEducation" class="flex flex-col rounded-lg shadow-md m-8 p-2">
                         <div class="flex flex-row items-center justify-evenly m-4">
                             <img src={CesiLogo} alt="CesiLogo" />
                             <div class="text-center">
@@ -60,13 +60,13 @@ const Intro = () => {
                             </button>
                         </div>
                     </div>
-                    <div id="goals" class="flex flex-row justify-center rounded-lg shadow-md m-8 p-2">
+                    <div id="idGoals" class="flex flex-row justify-center rounded-lg shadow-md m-8 p-2">
                         <div class="hidden">
                             explain
                         </div>
                         <img src={CiblePFI} alt="CiblePFI" class="w-3/4 2xl:w-1/2"/>
                     </div>
-                    <div id="interests" class="hidden">
+                    <div id="idInterests" class="hidden">
 
                     </div>
                 </div>

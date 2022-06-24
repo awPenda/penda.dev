@@ -11,7 +11,7 @@ let descLewys = "Created the back and front end of a website from scratch, for a
 
 const ProExp = () => {
     return(
-        <div id="ProExp" class="max-h-screen">
+        <div id="idProExp" class="max-h-screen">
             <div>
                <h2 class="text-3xl mt-6">Experiences</h2>
                <div class="2xl:mx-36">

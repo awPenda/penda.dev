@@ -3,7 +3,7 @@ import CoverPic from '../../img/coverpic.jpeg';
 
 const Cover = () => {
     return(
-        <div id="Cover" class="flex flex-row justify-around items-center h-screen">
+        <div id="idCover" class="flex flex-row justify-around items-center h-screen">
             <div class="text-center text-xl">
                 <h2 class="text-4xl"> I'm <b>Amelie</b></h2>
                 <ul class="mt-4">
@@ -33,7 +33,7 @@ const Cover = () => {
                     </li>
                     <li>
                         <a href="mailto:amelie.willems2@gmail.com">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 20 20" fill="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                             </svg>
